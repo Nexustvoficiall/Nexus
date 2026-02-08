@@ -4,9 +4,9 @@ particlesJS(
       'number': {
         'value': 300
       },
-      'color': {
-        'value': ['#ffff00','#ff0000', '#0000ff', '#00ff00', '#8000ff', '#00e3ff', 'fc00ff']
-      },
+        'color': {
+          'value': ['#ff1e1e', '#ff7b7b', '#cfcfcf']
+        },
       'shape': {
         'type':  ["circle","square","polygon"],
       },
@@ -18,10 +18,10 @@ particlesJS(
         }
       },
       'size': {
-        'value': 3,
+        'value': 2.5,
         'random': true,
         'anim': {
-          'enable': false,
+          'enable': false
         }
       },
       'line_linked': {

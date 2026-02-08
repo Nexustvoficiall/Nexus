@@ -46,13 +46,17 @@ if (isset($_POST["login"])) {
     <meta name="author" content="Bet3">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./css/nexus-theme.css">
     <title>Nexus Panel</title>
 </head>
 <style>
 body{
-  background-color: #181828;
-  background-image: url("./img/binding_dark.webp");
-  color: #fff;
+    background-color: #181828;
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
 }
 
 #particles-js{
