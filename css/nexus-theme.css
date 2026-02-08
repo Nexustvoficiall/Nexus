@@ -1,0 +1,67 @@
+:root{
+  --nexus-red: #ff1e1e;
+  --nexus-silver: #cfcfcf;
+  --nexus-dark: #0b0b0f;
+  --nexus-accent: #ff7b7b;
+  --nexus-shadow: rgba(255,30,30,0.12);
+}
+
+/* Base */
+body{
+  background-color: var(--nexus-dark);
+  color: var(--nexus-silver);
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(255,30,30,0.04), transparent 15%),
+    linear-gradient(180deg, #070709, #0f0f14);
+  background-attachment: fixed;
+}
+
+/* Subtle diagonal rays */
+body:before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.01) 0 2px, transparent 2px 40px);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Header / Sidebar */
+.sidebar-heading{
+  background: linear-gradient(90deg, var(--nexus-red), #b30000);
+  color: var(--nexus-silver) !important;
+  font-weight: 700;
+  box-shadow: 0 6px 30px var(--nexus-shadow);
+}
+
+.list-group-item{
+  background: transparent;
+  color: var(--nexus-silver);
+  border: none;
+}
+.list-group-item:hover{ background: rgba(255,30,30,0.04); color: var(--nexus-accent); }
+
+/* Navbar */
+.navbar{ background: linear-gradient(180deg, rgba(255,30,30,0.06), transparent); }
+
+/* Buttons */
+.btn-primary, .btn-warning, .btn-info{ background: linear-gradient(90deg, var(--nexus-red), #b30000); border: none; color: var(--nexus-silver); }
+.btn-danger{ background: #8b0000; color: var(--nexus-silver); }
+
+/* Forms and inputs */
+.form-control{ background: #111; color: var(--nexus-silver); border: 1px solid rgba(255,255,255,0.04); }
+
+/* Table & DataTables */
+table.dataTable thead th{ background: rgba(255,30,30,0.04); color: var(--nexus-silver); }
+
+/* Page messages */
+#pageMessages .alert{ background: linear-gradient(90deg, rgba(255,30,30,0.05), transparent); color: var(--nexus-silver); border: 1px solid rgba(255,255,255,0.03); }
+
+/* Logo / Brand */
+.nexus-brand{ filter: drop-shadow(0 6px 20px rgba(255,30,30,0.12)); }
+
+/* Make some elements easily editable by changing CSS variables at top */
+
+@media (max-width: 768px){
+  .sidebar-heading{ font-size: 1.1rem; }
+}

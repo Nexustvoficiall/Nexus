@@ -46,7 +46,7 @@ if (isset($_POST["login"])) {
     <meta name="author" content="Bet3">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/css.css">
-    <title>Bet3 Panel</title>
+    <title>Nexus Panel</title>
 </head>
 <style>
 body{
@@ -91,7 +91,7 @@ body{
                 <input type="submit" class="btn btn-warning btn-lg btn-block" value="Log In" name="login">
             </form>
             <br>
-            <center><a class="list-grup-item" href="https://t.me/" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169 <?=date("Y")?> * Bet3 Panels * </a></center>
+            <center><a class="list-grup-item" href="https://t.me/" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169 <?=date("Y")?> * Nexus Panels * </a></center>
         </div>
     </div>
 </div>

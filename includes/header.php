@@ -19,6 +19,7 @@ if (empty($loggedinuser) && isset($_SESSION['name']) && $_SESSION['name'] === $l
 	<meta name="author" content="Bet3">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="css/themes/darkly/bootstrap.css" rel="stylesheet" title="main">
+    <link href="css/nexus-theme.css" rel="stylesheet" title="nexus-theme">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="css/simple-sidebar.css" rel="stylesheet">
@@ -77,11 +78,12 @@ body{
 <div id="js-particles"></div>
 <body> 
 
+
   <div class="d-flex" id="wrapper">
-	<!-- Sidebar-->
-	<div class="" id="sidebar-wrapper">
-	  <div class="sidebar-heading">Bet3 IBO4K Plus </div>
-	  <span><a class="list-grup-item" href="https://t.me/bet3inc" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169  <?=date("Y")?> * Bet3 Panels * </a> </span></center>
+    <!-- Sidebar-->
+    <div class="" id="sidebar-wrapper">
+      <div class="sidebar-heading">Nexus</div>
+      <span><a class="list-grup-item" href="https://t.me/bet3inc" target="_blank">&nbsp&nbsp&nbsp&nbsp&#169  <?=date("Y")?> * Nexus Panels * </a> </span></center>
 <div class="list-group list-group-flush">
     <a class="list-group-item list-group-item-action" href="dns.php">
         <i class="fa fa-cogs"></i>&nbsp;&nbsp; DNS Settings
