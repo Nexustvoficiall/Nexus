@@ -1,0 +1,1371 @@
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => rPjHpywQMlr2iNhBU/OTrxogQbNxGcPxLE0JB2CFhO9hVtIWYBfWetHhDcvQ5NVBva+ZejQq3Glbnd4BbBHeULWBPTq43KYQ2BVLWBnSTD/01w==
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] Database connection established
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] MACs in DB | Array
+(
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[25-Aug-2025 08:55:36 America/Sao_Paulo] [2025-08-25 08:55:36] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] Incoming request | Array
+(
+    [action] => fetch_dns
+    [raw_payload] => bi6jWI+2+obTtwnfVvPQ4LtHUNbgA/bH5/+voE6ZnNQvNbWF+9TuuSH1B+ZTvA==
+)
+
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] Payload decrypted | Array
+(
+    [plain] => {}
+)
+
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] Database connection established
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] fetch_dns: urls fetched | Array
+(
+    [0] => http://gw38.site
+)
+
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] Payload encrypted | Array
+(
+    [cipher] => JX/vwJAVx41yx0ZcNeO3kiwnOXrt4e3YnQgz99joEID+8oY2bO6yn6Gs2jkgpMfWLxj7Hq98VIuN89H6n0M0QQ==
+)
+
+[25-Aug-2025 08:56:04 America/Sao_Paulo] [2025-08-25 08:56:04] fetch_dns response encrypted | Array
+(
+    [json] => ["http://gw38.site"]
+    [encrypted] => JX/vwJAVx41yx0ZcNeO3kiwnOXrt4e3YnQgz99joEID+8oY2bO6yn6Gs2jkgpMfWLxj7Hq98VIuN89H6n0M0QQ==
+)
+
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] Incoming request | Array
+(
+    [action] => submit_url
+    [raw_payload] => JbkJillek6VIfaWsr8EjhOqvwV+Xzbr6T7M8tEXggQGn5+4Ry2RbjcTfiLmNIMFHowewmBqOxMmpwuUVD9UUGQW8T94cJnuMOSEZdrpEfQkwVU86ZLFbuWdKVRj5J8vNphAR9Oqw9VltXm9RvuBFU1UtxD5CohDgBBEseYIZyGmgOdEl/Kri/x2xs7cVFOYepVKVJWI8Z3aYT/4a
+)
+
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg==","url":"http://gw38.site/player_api.php?username=1333986&password=8401171"}
+)
+
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] Database connection established
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] Parsed URL | Array
+(
+    [parsed] => Array
+        (
+            [scheme] => http
+            [host] => gw38.site
+            [path] => /player_api.php
+            [query] => username=1333986&password=8401171
+        )
+
+    [params] => Array
+        (
+            [username] => 1333986
+            [password] => 8401171
+        )
+
+)
+
+[25-Aug-2025 08:56:06 America/Sao_Paulo] [2025-08-25 08:56:06] submit_url success | Array
+(
+    [status] => ok
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => MZyp6rMPN99KFmbsk6RCouU6CA2p3pB/+I4t4FiGjZBP2JUwMk8OymgvRPryyXPYZHtjQJ2/8m1KCzY6IL+p+NztcciyHWlf+XlZEanpM1PJtQ==
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] Database connection established
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[25-Aug-2025 09:12:16 America/Sao_Paulo] [2025-08-25 09:12:16] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => 7+HKl6pZ5cBdMTdNFF4FV3UQinwAOUV4dtw5u1qM8FJgz5ZnK08KUYKIaA2smgJ3Izp3V0tHLMVPNMfWrY0zHcIyyf9y8ORLF4mOccd3ZnXtPg==
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6ZDQ4ZTM1YWRlMjViNjQzNg=="}
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] Database connection established
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] MAC normalized | Array
+(
+    [original] => MDA6ZDQ4ZTM1YWRlMjViNjQzNg==
+    [normalized] => d4:8e:35:ad:e2:5b:64:36
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] Executing MAC check | Array
+(
+    [mac] => d4:8e:35:ad:e2:5b:64:36
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[25-Aug-2025 11:20:46 America/Sao_Paulo] [2025-08-25 11:20:46] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 06:56:35 America/Sao_Paulo] [2025-08-26 06:56:35] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => aTyEQayBKAsI6OO3nvwltmSEP+mFYhr/GnaX0bLjNKKzmr6W0FPiRzZz+jqujrRoS0swYax9luYtx7D0yJGPKWGL/u56LPEXKxaKuAuC56D/GQ==
+)
+
+[26-Aug-2025 06:56:35 America/Sao_Paulo] [2025-08-26 06:56:35] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 06:56:35 America/Sao_Paulo] [2025-08-26 06:56:35] Database connection established
+[26-Aug-2025 06:56:35 America/Sao_Paulo] [2025-08-26 06:56:35] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 06:56:35 America/Sao_Paulo] [2025-08-26 06:56:35] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 06:56:36 America/Sao_Paulo] [2025-08-26 06:56:36] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 06:56:36 America/Sao_Paulo] [2025-08-26 06:56:36] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 06:56:36 America/Sao_Paulo] [2025-08-26 06:56:36] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => ByxLaUFRJ/232EBmYIJo/zoS4z/jDF58G/ddEP6wpf+GpuLjDtzEpMBipBgBjZy1NsMqQpYLBbrdJxRJF5+AwP33j4i8UrLsxXrMiBqE48e6Dw==
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] Database connection established
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 07:04:46 America/Sao_Paulo] [2025-08-26 07:04:46] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => 5VKJ4jTvOldiytQsTbdLBQzPjtLi+2YK5mKHQHULsrTLUvHEOEoafwRa35C+EODOqGXF+InDiVEQ9jP9U8H7c/PjYCx2rC22aR8pjS1bQ/W+yg==
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] Database connection established
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 07:19:13 America/Sao_Paulo] [2025-08-26 07:19:13] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => akYNQoMbPIRINFyq0FPFLmfCQSwsxvt3XJfC5QSy5f4OlO1Xvs1hKiIDoDUVudhrperkmJWchP/7YobRR3HR8HDpEe4QazqqxZ8m12hwbRJisQ==
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] Database connection established
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 10:15:35 America/Sao_Paulo] [2025-08-26 10:15:35] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => NsuyrJ687qzVDTjEKnVpe1eKx2LyKvbdFysjXGpYw3BSYGtBHrUevvN4rtN6+2+kA7qafGmrAKlpUpB1VAl1IAlgyry8KWccKh/CXSrwD1kBQg==
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] Database connection established
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 10:15:43 America/Sao_Paulo] [2025-08-26 10:15:43] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => 47bgPcJhdasp30XtrWdTbVWVi1nadYNGyOdfnMTg/+8Z+nfGySwVXNlaC2rMRmP6MWABgoJX+HscSAPdCDA48IYSbrpqT/VMle1wHJsE690PsA==
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] Database connection established
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 10:15:47 America/Sao_Paulo] [2025-08-26 10:15:47] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => TTC0r+Vnm/k4dHUYTYOvvIUHYlC4hrwUFomlamlhMDLndPkksHYEvY7OpTM2EyXyBObgiin8Uu3JPC1kys1yL0qoTkD3AKSKfgwvCuiZqHZBbQ==
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] Database connection established
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 10:16:22 America/Sao_Paulo] [2025-08-26 10:16:22] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => NtV4LvUzFVCjzfuw2oKgqBuCZbrTP+2Geh5XD6Ig9iiTyO2XaNlQz4iSQ95WzYQ8bCmaKTiyomhQ0rgpZwQRMQvPAkPQW2cAQiqvaf6SD/BW3g==
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA=="}
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] Database connection established
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] Executing MAC check | Array
+(
+    [mac] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 13:05:55 America/Sao_Paulo] [2025-08-26 13:05:55] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => dhTDqdFk4+b69ati2kc5srk0Ecd2bCvoqkRvjN5ACubL97kpiPEgKBSVv6ksaiony/qYBKbRZURm9TrBrfK6x/0z6GW2eK6s3EX8MS4COSK+bA==
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NjU3N2IwZDRiYzJiM2NhMg=="}
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] Database connection established
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] MAC normalized | Array
+(
+    [original] => MDA6NjU3N2IwZDRiYzJiM2NhMg==
+    [normalized] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] Executing MAC check | Array
+(
+    [mac] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 13:10:18 America/Sao_Paulo] [2025-08-26 13:10:18] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => ABqRbKPQW2CPQG6bELDs5bq87HVnrNaJb6WXf/KbSDoCzqsSULeg76hiPCjioh10eIKbC2BD0c3l6iuZa4p0wjMEksaLfGqdAmrgW3mP9sLrSg==
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA=="}
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] Database connection established
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] Executing MAC check | Array
+(
+    [mac] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 13:11:00 America/Sao_Paulo] [2025-08-26 13:11:00] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => uL4kZ/i+vKJoXG4f70TbDzNIUwTLNCEWsqC2X0o+schq9Eub27f/Qj4Gg1H3lJ2o6+2XOmV9UR2rUSsERMjWG87YvfNi5show4YmGjBenjEKqQ==
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA=="}
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] Database connection established
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] Executing MAC check | Array
+(
+    [mac] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] MACs in DB | Array
+(
+    [0] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 13:12:02 America/Sao_Paulo] [2025-08-26 13:12:02] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] Incoming request | Array
+(
+    [action] => fetch_dns
+    [raw_payload] => mywD/NS0P8wDcG5y/yVZ7F53VvLuSqpBr2ki0NS7E6K9TW4HZXV9uVQZ14+qew==
+)
+
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] Payload decrypted | Array
+(
+    [plain] => {}
+)
+
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] Database connection established
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] fetch_dns: urls fetched | Array
+(
+    [0] => http://gw38.site
+)
+
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] Payload encrypted | Array
+(
+    [cipher] => 42KNORAGl9gRStWaDpNToovoSQDq2WW4fNzcEzdcuG9v6g1tjrVb3Eq3YxKQzR8s08MRMArrykecGVnzqBFZyw==
+)
+
+[26-Aug-2025 14:49:39 America/Sao_Paulo] [2025-08-26 14:49:39] fetch_dns response encrypted | Array
+(
+    [json] => ["http://gw38.site"]
+    [encrypted] => 42KNORAGl9gRStWaDpNToovoSQDq2WW4fNzcEzdcuG9v6g1tjrVb3Eq3YxKQzR8s08MRMArrykecGVnzqBFZyw==
+)
+
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] Incoming request | Array
+(
+    [action] => submit_url
+    [raw_payload] => +tsSBdFZULDqGMvG20ahe1ycKl7K6ZpnbQw+18t+V3Vbq+0Bx+gjQQHOHPbNRi92MsR+Ub5yQTRTPGGFznoR2STmeDBca4gfRS3UcrpTFq1fyb2KX6eCiZAh4029bExsZV0atf8ONHbrZv6+9fslo7wTkzAeIDh6qts/GeLTXb8EbLiupwlb817mKzd5IljfTeqhZaudYeRpQV34
+)
+
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA==","url":"http://gw38.site/player_api.php?username=6643222&password=1499512"}
+)
+
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] Database connection established
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] Parsed URL | Array
+(
+    [parsed] => Array
+        (
+            [scheme] => http
+            [host] => gw38.site
+            [path] => /player_api.php
+            [query] => username=6643222&password=1499512
+        )
+
+    [params] => Array
+        (
+            [username] => 6643222
+            [password] => 1499512
+        )
+
+)
+
+[26-Aug-2025 14:49:40 America/Sao_Paulo] [2025-08-26 14:49:40] submit_url success | Array
+(
+    [status] => ok
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => Gi7JAFn8rzKO+dOcbsYfYu8HNPioQONQUDaZHdkzm6K5eoO2e6vj6Zj6hJkkoRm6Qk70zb/iisxcDGMFoTZ3QFqFoVan4cq6jBIIGvi+IJLQpA==
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA=="}
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] Database connection established
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] Executing MAC check | Array
+(
+    [mac] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 14:53:44 America/Sao_Paulo] [2025-08-26 14:53:44] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => SgsargzlSRP/buvCPXR1M2WtCIL/LPk/hqgur1JYUUX1Lc0JNPFurt43jrd9BX5GBapvbuj74KJmvY0vXGSToiUHkO5U9iu3IVIQwwVhtsqlrA==
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] Database connection established
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:26:39 America/Sao_Paulo] [2025-08-26 15:26:39] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => OMz8JwF4sIddcxt2hYZ4w76HUkduR8rjej8NfPlYTZ8MKnm8hCsMqbpgWhlK3A7Pn9p2S1ngIhxMn4dpDzgO35CFXBese/oNtC0lBl0FwRwVqw==
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] Database connection established
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:29:34 America/Sao_Paulo] [2025-08-26 15:29:34] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => BWWZIOuxGACPsgbjVwrB/AJXOpAfeXJrSuCVwnZ+4LPsDU+XsIH09HqjHy+JiCqJTGytNTqp/sbZJEtz13HUBV7/5jHIQzax8TfVMvUVvQn+qA==
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] Database connection established
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:31:27 America/Sao_Paulo] [2025-08-26 15:31:27] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => t/XPY+comQQ2RoZsl+3KNJSIkJTpixUflNVxou7h9/iQ3xe8l+QNg5tL5Qh8Xkd/q5f5TwOW9bUWdYj7PhJMI/HOFcqw5EEGOpo6VxRC4csDAA==
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] Database connection established
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:31:55 America/Sao_Paulo] [2025-08-26 15:31:55] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => T3FeWiSpT1lYuT5v49TP8BnW8R66SjgBS9PSIPfwGaHNY73/OLP/aBNe1cKG0+/j2Rf8EGlzzXqC5UbXMvU9WC4ZiL+7ZeEOr3C0io/QL+Enbw==
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] Database connection established
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:34:04 America/Sao_Paulo] [2025-08-26 15:34:04] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => v96CksYDl1bSzJFycl2j7rZoMVwVfqdN0UzLYglskeRqnbX2+iCBB5D6FeqvjmIuL9wGOT6YQSQYyXq0myc1KPJUCwmAWKw7vX1ukgoBjymXJw==
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] Database connection established
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:37:36 America/Sao_Paulo] [2025-08-26 15:37:36] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => LHclNjaR+PIW044kz+SSZvI19WK4Fi7uqPdw/lXRK4YaZFK2xW8w6dTSrknjaq8XbBpwwsDrKQn99RXj6cTB6fUOCU7EYELe+GyPj0t1PHn6Wg==
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] Database connection established
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:42:20 America/Sao_Paulo] [2025-08-26 15:42:20] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => eHXHSkOPAOal3zGc7h1SvogxLoI5j135wkHqdGw+tTnXCZZ1E3FZn/7lO6VFI63m56Ijomq0qTTYNYaQwcQdKl3SjMObjmsn6OaH4bw11+bblQ==
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDNhODRhM2NmM2RjNTNmZQ=="}
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] Database connection established
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] MAC normalized | Array
+(
+    [original] => MDA6MDNhODRhM2NmM2RjNTNmZQ==
+    [normalized] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] Executing MAC check | Array
+(
+    [mac] => 03:a8:4a:3c:f3:dc:53:fe
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 15:44:48 America/Sao_Paulo] [2025-08-26 15:44:48] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => +m/U+06MCbslPzjxRTjQID3mQCDNtoLVvH1G6cgQ6pe4iZf54MdhVccPlPa78BGBU8sripTh88Z7Cbq+VpVg9RBqcL6v6v76Se4e6c/2i/akXQ==
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6NTAzMWMwNjlmZjU5ZWYyMA=="}
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] Database connection established
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] MAC normalized | Array
+(
+    [original] => MDA6NTAzMWMwNjlmZjU5ZWYyMA==
+    [normalized] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] Executing MAC check | Array
+(
+    [mac] => 50:31:c0:69:ff:59:ef:20
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 16:43:34 America/Sao_Paulo] [2025-08-26 16:43:34] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => VHF2TZsgBVv1iaQ1Zh66tvbjpba62HMv2WirH/3OvUylIuleAgxRWetHaekBEtCEnmOXbCtW4e+tjYR8buEz/S13MHcXODF9RdT0rvQ91fWu3A==
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDAwOTZkODM2ZDA1MjNjNg=="}
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] Database connection established
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] MAC normalized | Array
+(
+    [original] => MDA6MDAwOTZkODM2ZDA1MjNjNg==
+    [normalized] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] Executing MAC check | Array
+(
+    [mac] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 18:10:40 America/Sao_Paulo] [2025-08-26 18:10:40] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => zCHie7wHfIHgQmT90jEeDdpnsbBadQG6NxwseQbZPoQUkOWQYRh/r6PwYLGwA8fky+OJosWHwVgXXciHHUN8jW/6WDQNuvgyRpd3fpmH3pc+cw==
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDAwOTZkODM2ZDA1MjNjNg=="}
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] Database connection established
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] MAC normalized | Array
+(
+    [original] => MDA6MDAwOTZkODM2ZDA1MjNjNg==
+    [normalized] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] Executing MAC check | Array
+(
+    [mac] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] MACs in DB | Array
+(
+    [0] => 50:31:c0:69:ff:59:ef:20
+    [1] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] Raw fetchColumn result | Array
+(
+    [value] => 0
+    [type] => integer
+)
+
+[26-Aug-2025 18:12:30 America/Sao_Paulo] [2025-08-26 18:12:30] check_mac response json | Array
+(
+    [json] => {"exists":false}
+    [exists_boolean] => 
+)
+
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] Incoming request | Array
+(
+    [action] => fetch_dns
+    [raw_payload] => +8elPf3ERen1nB92E6xHkwhmRiaO+8s9DppBbKO53kv7hfwNafy3pczSD7j0cw==
+)
+
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] Payload decrypted | Array
+(
+    [plain] => {}
+)
+
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] Database connection established
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] fetch_dns: urls fetched | Array
+(
+    [0] => http://gw38.site
+    [1] => http://getxc.top
+)
+
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] Payload encrypted | Array
+(
+    [cipher] => nsMsj1VM2tlo3YB/M0koBXS9F+zewuzSiJm5Vub5O8SZTrBwsdA+PirfQ+y174OU+8jTsg+recYbj3ECfcvh5GZ5+4Wz3bEXqdnVe4AZiOXvmUI=
+)
+
+[26-Aug-2025 18:12:56 America/Sao_Paulo] [2025-08-26 18:12:56] fetch_dns response encrypted | Array
+(
+    [json] => ["http://gw38.site","http://getxc.top"]
+    [encrypted] => nsMsj1VM2tlo3YB/M0koBXS9F+zewuzSiJm5Vub5O8SZTrBwsdA+PirfQ+y174OU+8jTsg+recYbj3ECfcvh5GZ5+4Wz3bEXqdnVe4AZiOXvmUI=
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Incoming request | Array
+(
+    [action] => fetch_dns
+    [raw_payload] => zc9nr/W/SL3K8SFW5v2qrEHzpJPywEBsphn0DO5c2aseFv1QgymuXwAk39iVOA==
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Payload decrypted | Array
+(
+    [plain] => {}
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Database connection established
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] fetch_dns: urls fetched | Array
+(
+    [0] => http://gw38.site
+    [1] => http://getxc.top
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Payload encrypted | Array
+(
+    [cipher] => wRGnYF1k8r56+j1LU2EpMXLqgI09g4dOiiwgQw7agvgESmgjLIRnvThQHkdeDhVxkWYfjlezAKahQcAf5bnsGgI3rQPvDeHLE5215yxol90Ob0U=
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] fetch_dns response encrypted | Array
+(
+    [json] => ["http://gw38.site","http://getxc.top"]
+    [encrypted] => wRGnYF1k8r56+j1LU2EpMXLqgI09g4dOiiwgQw7agvgESmgjLIRnvThQHkdeDhVxkWYfjlezAKahQcAf5bnsGgI3rQPvDeHLE5215yxol90Ob0U=
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Incoming request | Array
+(
+    [action] => submit_url
+    [raw_payload] => pWIVbBFm1ip1NdFE6cqNdK2reIylTV9IVt6h5YKaRXjKdN6Bv6iPknfBLf/SIHJUhK8EqUfcBRz2PbWlLu+D76w7yF04TlLQK8vmE+N4SboHU0vxbih34G51kgkjnDpWCEE+H3+KyFyqUKkGiGrbXzwv/oGYOfkUWPvUOAgGxMlaykFR+UeM8l1YeymxxeNrY0eJy9Bs1d61mteNxtDl5A==
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDAwOTZkODM2ZDA1MjNjNg==","url":"http://getxc.top/player_api.php?username=781591055&password=117686938"}
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Database connection established
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] MAC normalized | Array
+(
+    [original] => MDA6MDAwOTZkODM2ZDA1MjNjNg==
+    [normalized] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] Parsed URL | Array
+(
+    [parsed] => Array
+        (
+            [scheme] => http
+            [host] => getxc.top
+            [path] => /player_api.php
+            [query] => username=781591055&password=117686938
+        )
+
+    [params] => Array
+        (
+            [username] => 781591055
+            [password] => 117686938
+        )
+
+)
+
+[26-Aug-2025 18:12:58 America/Sao_Paulo] [2025-08-26 18:12:58] submit_url success | Array
+(
+    [status] => ok
+)
+
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] Incoming request | Array
+(
+    [action] => submit_url
+    [raw_payload] => Z/rNYRRCuvAsYWiGjVZJKOASHwQodLsG/12VdvVuERowExjvQcsifDFFK1/YWGASlSg9izAC6lv0vCWgAN+gJ0tcePogZYa1Qre/ii6Cfu7yadoZ3Iv2uXmmjk4NwRI8F18BTG6wR4jOXtJhFarkvD/nUbMTBbhBjv4ZYf74AjqiFoVHQX6wNBriDSrvVn7xi0PVOAKwKAbDjG+dTRtPNQ==
+)
+
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDAwOTZkODM2ZDA1MjNjNg==","url":"http://getxc.top/player_api.php?username=781591055&password=117686938"}
+)
+
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] Database connection established
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] MAC normalized | Array
+(
+    [original] => MDA6MDAwOTZkODM2ZDA1MjNjNg==
+    [normalized] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] Parsed URL | Array
+(
+    [parsed] => Array
+        (
+            [scheme] => http
+            [host] => getxc.top
+            [path] => /player_api.php
+            [query] => username=781591055&password=117686938
+        )
+
+    [params] => Array
+        (
+            [username] => 781591055
+            [password] => 117686938
+        )
+
+)
+
+[26-Aug-2025 18:12:59 America/Sao_Paulo] [2025-08-26 18:12:59] submit_url success | Array
+(
+    [status] => ok
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] Incoming request | Array
+(
+    [action] => check_mac
+    [raw_payload] => lYFUDQUcnPD/Pkg1Umwwdjr827UbuxMLzFjBXvZDWoIQERPHCk0I2FrA0RVuFm0hLWaHLFIzdX1o7FfD2tY8+5cvqFp1LLkKzIOHtyopyKVYdg==
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] Payload decrypted | Array
+(
+    [plain] => {"mac":"MDA6MDAwOTZkODM2ZDA1MjNjNg=="}
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] Database connection established
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] MAC normalized | Array
+(
+    [original] => MDA6MDAwOTZkODM2ZDA1MjNjNg==
+    [normalized] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] Executing MAC check | Array
+(
+    [mac] => 00:09:6d:83:6d:05:23:c6
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] MACs in DB | Array
+(
+    [0] => 00:09:6d:83:6d:05:23:c6
+    [1] => 50:31:c0:69:ff:59:ef:20
+    [2] => 65:77:b0:d4:bc:2b:3c:a2
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] Raw fetchColumn result | Array
+(
+    [value] => 1
+    [type] => integer
+)
+
+[26-Aug-2025 18:19:33 America/Sao_Paulo] [2025-08-26 18:19:33] check_mac response json | Array
+(
+    [json] => {"exists":true}
+    [exists_boolean] => 1
+)
+

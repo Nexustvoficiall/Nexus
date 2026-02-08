@@ -1,0 +1,29 @@
+/api/.db.db
+*.db
+*.sqlite
+/.idea
+/.vscode
+/node_modules
+/vendor
+.env
+.DS_Store
+Thumbs.db
+/*.log
+/.vs
+/.cache
+/.history
+
+# Ignore OS-specific files
+Desktop.ini
+ehthumbs.db
+
+# Ignore user uploads/tmp
+/uploads
+/tmp
+
+# Ignore compiled assets
+/public/build
+
+# Ignore secrets
+*.pem
+*.key
